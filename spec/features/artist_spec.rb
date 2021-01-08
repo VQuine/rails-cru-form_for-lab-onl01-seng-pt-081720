@@ -19,7 +19,7 @@ describe 'navigate artist pages' do
     visit "/artists/#{@artist.id}"
     expect(page).to have_css("p", text: "My artist bio")
   end
-end
+end 
 
 describe 'artist form' do
   it 'shows a new form that submits content and redirects and prints out params' do
